@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: #FFF0DC;
+}
+
+body a{
+    color: black;
+    text-decoration: none;
+}
+
+.events-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f2f3e0;
+
+}
+
+.past-events-headings{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(146, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.past-events{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("quiz-arena.png");
+    background-size: contain;
+
+}
+
+.first-event-para i, .second-event-para i, .third-event-para i, .fourth-event-para i, .fifth-event-para i, .sixth-event-para i, .seventh-event-para i{
+    margin-left: 10px;
+}
+
+.first-event-para, .second-event-para, .third-event-para, .fourth-event-para, .fifth-event-para, .sixth-event-para, .seventh-event-para{
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+
+}
+
+.first-event-para:hover, .second-event-para:hover, .third-event-para:hover, .fourth-event-para:hover, .fifth-event-para:hover, .sixth-event-para:hover, .seventh-event-para:hover{
+    background-color: grey;
+}
+
+.second-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("ignition-war.png");
+    background-size: contain;
+}
+
+.third-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("quiz-2.0.png");
+    background-size: contain;
+}
+
+.fourth-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("web-battle.png");
+    background-size: contain;
+}
+
+.fifth-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("bgmi.png");
+    background-size: contain;
+}
+
+.horizontal-line{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.sixth-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("FE-frenzy.png");
+    background-size: contain;
+}
+
+.ongoing-event{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ongoing-event-heading{
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(146, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.upcoming-event-heading{
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(146, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.upcoming-event{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seventh-event{
+    width: 420px;
+    height: 420px;
+    border-radius: 0.5rem;
+    border: 2px solid black;    
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("stay-tuned.png");
+    background-size: contain;
+}
