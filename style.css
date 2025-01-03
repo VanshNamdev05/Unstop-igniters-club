@@ -1,0 +1,416 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* position: relative; */
+    background-color: #FFF0DC;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+}
+
+.site-logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url("club-logoo.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.search{
+    display: flex;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: #1f1f1f;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.search-icon{
+    width: 40px;
+    /* height: 45px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.search input{
+    height: 45px;
+    flex: 1;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #1f1f1f;
+}
+
+.competitions{
+    position: absolute;
+    color: white;
+    right: 320px;
+}
+
+.events{
+    position: absolute;
+    color: white;
+    right: 200px;
+}
+
+.more{
+    position: absolute;
+    color: white;
+    right: 100px;
+}
+
+.about-us-header{
+    position: absolute;
+    color: white;
+    right: 460px;
+}
+
+.header-right{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 45px;
+    margin-top: 5px;
+}
+
+
+.header-right:hover {
+    background-color: #1f1f1f;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.header-right:active{
+    background-color: #333131;
+}
+
+/* Main section styling */
+
+.hero-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url("main-section.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-section h1{
+    color:white;
+    font-size: 800%;
+}
+
+.about-us{
+    width: 300px;
+    height: 300px;
+    background-image: url("about-us-nobg.png");
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0px;
+}
+
+.about-us:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
+}
+
+.objective-image:hover {
+    transform: rotate(-10deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.about {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 50px 10%;
+    gap: 20px; 
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+}
+
+.about-us-para{
+    flex: 1;
+    margin-left: 225px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.objective-image{
+    width: 300px;
+    height: 300px;
+    background-image: url("objective.png");
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+}
+
+
+
+.horizontal-line{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.objective-para{
+    margin-left: 30px;
+    padding-top: 55px;
+    margin-bottom: 30px;
+}
+
+.objective-para ul{
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.objective-para ul li{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.club-members-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+details ul li{
+    margin-left:40px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+details ul li:hover {
+    transform: rotate(2deg);
+    transition: transform 0.3s ease;
+}
+
+
+summary{
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.club-members{
+    width: 100%;
+    background-image: url("club-members.png");
+    height: 500px;
+    background-size: contain;
+}
+
+.notes{
+    width: 100%;
+    height: 300px;
+
+}
+
+.subject-notes, .syllabus, .question-paper{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+}
+
+.subject-notes:hover, .syllabus:hover, .question-paper:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.subject-notes i, .syllabus i, .question-paper i{
+    margin-left: 10px;
+}
+
+.syllabus{
+    color: black;
+}
+
+.subject-notes{
+    color: black;
+}
+
+.question-paper{
+    color: black;
+}
+
+.notes p{
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+
+footer{
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    background-color: #1f1f1f;
+}
+
+.top:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.banner img{
+    width: 100%;
+
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 200px;
+    background-image: url("club-logoo-modified.png");
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.social-media-logo{
+    width: 200px;
+    height: 200px;
+    background-image: url("social-media.jpeg");
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.insta i{
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.linkedin i{
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.discord i{
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.bottom-right{
+    margin-top: 20px;
+
+}
+
+.bottom-right span{
+    margin-left: 20px;
+}
+
+.discord{
+    margin-left: -5px;
+    margin-top: 10px;
+
+}
+
+.insta, .linkedin{
+    margin-top: 10px;
+}
+
+.insta:hover, .discord:hover, .linkedin:hover{
+    border-radius: 2rem;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.top:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.insta:active, .discord:active, .linkedin:active{
+    background-color: #333131;
+}
+
+.insta, .discord, .linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-middle ul li{
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
